@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ghosthand": {
+      "command": "ghosthand",
+      "args": ["mcp"],
+      "env": {
+        "GHOSTHAND_TARGET": "local"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ghosthand",
+  "version": "1.0.0",
+  "description": "Autonomous, Zero-Token Human-like Desktop Operator & GUI Grounding Engine for AGY, Claude Code and OpenCode",
+  "main": "scripts/operator_cli.py",
+  "bin": {
+    "ghosthand": "scripts/operator_cli.py"
+  },
+  "keywords": [
+    "desktop-automation",
+    "zero-token",
+    "gui-agent",
+    "antigravity",
+    "claude-code",
+    "opencode",
+    "computer-use",
+    "directinput",
+    "opencv",
+    "tesseract"
+  ],
+  "author": "Diego Araujo",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+# Remote Desktop Operator Requirements
+# Designed for Zero Cloud Token consumption via Local Vision (Ollama)
+
+# 1. Controller / Agent Machine (Mac / Linux):
+# - Ollama (https://ollama.ai) running locally with a vision model (e.g. lfm3-vl, moondream, or qwen2-vl)
+mss>=9.0.0
+Pillow>=10.0.0
+PyAutoGUI>=0.9.54
+opencv-python-headless>=4.8.0
+
+# 2. Remote Machine / Bridge Daemon (Windows / Linux):
+# For Windows gaming (PES / SP Football Life / DirectX):
+# pydirectinput sends direct hardware scan codes for DirectX games
+pydirectinput>=1.0.4; sys_platform == 'win32'
+mss>=9.0.0
+Pillow>=10.0.0
+PyAutoGUI>=0.9.54
